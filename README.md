@@ -3,7 +3,7 @@
 
 **In short**: your task is to create something interesting from datasets available in Wolt's [summer2018-repository](https://github.com/woltapp/summer2018). Yes, that is the only requirement - you decide the rest.
 
-The repository contains two JSON packages: *restaurants.json* and *orders.json*. Combined these two files include information about 75 (fictional) restaurants located in Helsinki and approx. 10k orders which were made during one week in January 2018. Data is a bit similar to what we use internally at Wolt. 
+The repository contains two JSON packages: *restaurants.json* and *orders.json*. Combined these two files include information about 75 (fictional) restaurants located in Helsinki and approx. 12k orders which were made during one week in January 2018. Data is a bit similar to what we use internally at Wolt. 
 
 If you are especially interested about frontend development, you might considering showing those skills and visualizing data. If digging numbers is your thing, feel free to run some analysis. You can also write a command-line application that processes, mangles, combines or transforms data some way .
 

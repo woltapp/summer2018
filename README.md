@@ -3,7 +3,7 @@
 
 **In short**: your task is to create something interesting from datasets available in Wolt's [summer2018-repository](https://github.com/woltapp/summer2018). Yes, that is the only requirement - you decide the rest.
 
-*summer2018*-repository contains two interesting JSON packages:*restaurants.json*and*orders.json*. Combined these two files include information about 75 (fictional) restaurants located in Helsinki and approx. 10k orders which were made during one week in January 2018. Data is a bit similar to what we use internally at Wolt. 
+*summer2018*-repository contains two interesting JSON packages: *restaurants.json* and *orders.json*. Combined these two files include information about 75 (fictional) restaurants located in Helsinki and approx. 10k orders which were made during one week in January 2018. Data is a bit similar to what we use internally at Wolt. 
 
 If you are especially interested about frontend development, you might considering showing those skills and visualizing data. If digging numbers is your thing, feel free to run some analysis. You can also write a command-line application that processes, mangles, combines or transforms data some way .
 
@@ -18,7 +18,7 @@ Take a look at what is inside those files we know you will quickly come up with 
 - Find a route to visit 5 nearest restaurants from any given location in the shortest time
 
 
-Have a better idea? Go for it. Web, mobile or backend - your choice. More important than**what**you decide to develop is**how**you do it. Clean code with a good structure will always make a great impression. 
+Have a better idea? Go for it. Web, mobile or backend - your choice. More important than **what** you decide to develop is **how** you do it. Clean code with a good structure will always make a great impression. 
 
 ## Technology
 
@@ -40,10 +40,10 @@ You do not have to utilize both datasets, using just one (e.g. restaurants) is o
 
 Contains a list of 75 restaurants located in Helsinki centre area. 
 - All restaurants are open at the same time (every day, 10.00 - 20.00)
-- *city_slug*is an ID for a city.*localized_city_name*is what needs to be displayed on the user interface
-- *currency*uses ISO 4217 format
+- *city_slug* is an ID for a city.*localized_city_name* is what needs to be displayed on the user interface
+- *currency* uses ISO 4217 format
     - https://en.wikipedia.org/wiki/ISO_4217
-- *timezone*uses tz database format
+- *timezone* uses tz database format
     - https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 ```
   {
@@ -64,12 +64,12 @@ Contains a list of 75 restaurants located in Helsinki centre area.
 ### orders.json
 Contains a list of orders made between 8.1.-14.1.2018. 
 
-- *time_received*(UTC timestamp) is when the restaurant received the order.
-- *time_completed*(UTC timestamp) is when the order was delivered to the customer
-- *customer.location*is customer’s location on the map
+- *time_received* (UTC timestamp) is when the restaurant received the order.
+- *time_completed* (UTC timestamp) is when the order was delivered to the customer
+- *customer.location* is customer’s location on the map
 - An order doesn’t contain currency data (*price*). Currency of a restaurant will be used (^ see restaurant data).
 - An order can include many different (menu) items. A customer can also buy multiple pieces of the same item (*quantity*)
-- *restaurant_id*refers to*id*-fields in*restaurants.json*
+- *restaurant_id* refers to *id*-fields in *restaurants.json*
 ```
    {
           "customer": {

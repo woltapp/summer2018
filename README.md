@@ -34,7 +34,7 @@ A good check before sending you task is to clone the repository / unzip the Zip 
 
 ## Datasets
 
-#####You do not have to utilize both datasets, using just one (e.g. restaurants) is ok.
+**You do not have to utilize both datasets, using just one (e.g. restaurants) is ok.**
 
 ### restaurants.json
 

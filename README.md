@@ -1,7 +1,7 @@
 # Wolt Summer 2018 - Coding Exercise
 ## *"Digging into data"*
 
-**In short**: your task is to create something interesting from datasets available in Wolt's [summer2018-repository](https://github.com/woltapp/summer2018). Yes, that is the only requirement - you decide the rest.**Alternatively** you can just send us your previous work (like github repo) that you think best demonstrates your skills.
+**In short**: your task is to create something interesting from datasets available in Wolt's [summer2018-repository](https://github.com/woltapp/summer2018). Yes, that is the only requirement - you decide the rest. **Alternatively** you can just send us your previous work (like github repo) that you think best demonstrates your skills.
 
 The repository contains two JSON packages: *restaurants.json* and *orders.json*. Combined these two files include information about 75 (fictional) restaurants located in Helsinki and approx. 12k orders which were made during one week in January 2018. Data is a bit similar to what we use internally at Wolt. 
 
